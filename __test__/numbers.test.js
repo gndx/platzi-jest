@@ -14,6 +14,6 @@ describe('Comparacion de numeros', () => {
         expect(numbers(2,2)).toBeLessThanOrEqual(1);
     });
     test('Numeros flotantes', () => {
-        expect(numbers(0.2,0.2)).toBeCloseTo(0.5);
+        expect(numbers(0.2,0.2)).toBeCloseTo(0.4);
     });
 });
